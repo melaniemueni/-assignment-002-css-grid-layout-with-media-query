@@ -7,10 +7,10 @@
    
 }
 div{
-    border: 0.5px solid;
+    border: 0.1px solid black;
 }
 main{ 
-    border: 0.5px solid;
+    border: 0.1px solid black; 
     
 }
 .main img{
@@ -19,12 +19,34 @@ main{
     object-fit: cover;  
 }
 aside{
-    border: 0.5px solid;
+   border: 0.1px solid black;
+   
 }
 footer{
-    border: 0.5px solid;
+    border: 0.1px solid black;
 }
-
+#container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    border: 1px solid;
+    
+}
+#one{
+    background-color: yellow;
+}
+#two{
+    background-color: rgb(120, 196, 219);
+}
+#three{
+    background-color: rgb(0, 195, 255);
+}
+#four{
+    background-color: rgb(8, 167, 140);
+}
+#five{
+    background-color: rgb(71, 6, 124);
+}
     
 
     
